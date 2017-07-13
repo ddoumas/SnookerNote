@@ -24,7 +24,8 @@
                 android:id="@+id/player1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Type your name here" />
+                android:hint="Type your name here"
+                android:cursorVisible="false"/>
 
             <TextView
                 android:id="@+id/team_1_score"
@@ -138,7 +139,8 @@
                 android:id="@+id/player2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Type your name here" />
+                android:hint="Type your name here"
+                android:cursorVisible="false"/>
 
             <TextView
                 android:id="@+id/team_2_score"
